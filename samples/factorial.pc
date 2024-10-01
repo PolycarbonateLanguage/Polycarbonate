@@ -1,0 +1,4 @@
+φ(n) -> -- Factorial function φ takes a argument n
+    | r (n == 0) ? 1 : n * φ(n - 1)
+
+c = φ(5)
